@@ -145,31 +145,33 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\CPP Projects\libGraph-master\src\ControlEngine.cpp" />
-    <ClCompile Include="..\..\..\..\CPP Projects\libGraph-master\src\Engine.cpp" />
-    <ClCompile Include="..\..\..\..\CPP Projects\libGraph-master\src\GameEngine.cpp" />
-    <ClCompile Include="..\..\..\..\CPP Projects\libGraph-master\src\GraphicEngine.cpp" />
-    <ClCompile Include="..\..\..\..\CPP Projects\libGraph-master\src\GraphicPrimitives.cpp" />
-    <ClCompile Include="..\..\..\..\CPP Projects\libGraph-master\src\main.cpp" />
-    <ClCompile Include="..\..\..\..\CPP Projects\libGraph-master\src\TextureManager.cpp" />
-    <ClCompile Include="..\..\..\..\CPP Projects\proj3\uselibgraph\src\MyControlEngine.cpp" />
-    <ClCompile Include="..\..\..\..\CPP Projects\proj3\uselibgraph\src\MyGameEngine.cpp" />
-    <ClCompile Include="..\..\..\..\CPP Projects\proj3\uselibgraph\src\MyGraphicEngine.cpp" />
-    <ClCompile Include="..\..\..\..\CPP Projects\proj3\uselibgraph\src\Papillon.cpp" />
+    <ClCompile Include="src\ControlEngine.cpp" />
+    <ClCompile Include="src\Engine.cpp" />
+    <ClCompile Include="src\Fourmi.cpp" />
+    <ClCompile Include="src\GameEngine.cpp" />
+    <ClCompile Include="src\GraphicEngine.cpp" />
+    <ClCompile Include="src\GraphicPrimitives.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\MyControlEngine.cpp" />
+    <ClCompile Include="src\MyGameEngine.cpp" />
+    <ClCompile Include="src\MyGraphicEngine.cpp" />
+    <ClCompile Include="src\Papillon.cpp" />
+    <ClCompile Include="src\TextureManager.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\CPP Projects\libGraph-master\src\ControlEngine.h" />
-    <ClInclude Include="..\..\..\..\CPP Projects\libGraph-master\src\Engine.h" />
-    <ClInclude Include="..\..\..\..\CPP Projects\libGraph-master\src\GameEngine.h" />
-    <ClInclude Include="..\..\..\..\CPP Projects\libGraph-master\src\GraphicEngine.h" />
-    <ClInclude Include="..\..\..\..\CPP Projects\libGraph-master\src\GraphicPrimitives.h" />
-    <ClInclude Include="..\..\..\..\CPP Projects\libGraph-master\src\libGraphicInclude.h" />
-    <ClInclude Include="..\..\..\..\CPP Projects\libGraph-master\src\Stopwatch.h" />
-    <ClInclude Include="..\..\..\..\CPP Projects\libGraph-master\src\TextureManager.h" />
-    <ClInclude Include="..\..\..\..\CPP Projects\proj3\uselibgraph\src\MyControlEngine.h" />
-    <ClInclude Include="..\..\..\..\CPP Projects\proj3\uselibgraph\src\MyGameEngine.h" />
-    <ClInclude Include="..\..\..\..\CPP Projects\proj3\uselibgraph\src\MyGraphicEngine.h" />
-    <ClInclude Include="..\..\..\..\CPP Projects\proj3\uselibgraph\src\Papillon.h" />
+    <ClInclude Include="src\ControlEngine.h" />
+    <ClInclude Include="src\Engine.h" />
+    <ClInclude Include="src\Fourmi.h" />
+    <ClInclude Include="src\GameEngine.h" />
+    <ClInclude Include="src\GraphicEngine.h" />
+    <ClInclude Include="src\GraphicPrimitives.h" />
+    <ClInclude Include="src\libGraphicInclude.h" />
+    <ClInclude Include="src\MyControlEngine.h" />
+    <ClInclude Include="src\MyGameEngine.h" />
+    <ClInclude Include="src\MyGraphicEngine.h" />
+    <ClInclude Include="src\Papillon.h" />
+    <ClInclude Include="src\Stopwatch.h" />
+    <ClInclude Include="src\TextureManager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
